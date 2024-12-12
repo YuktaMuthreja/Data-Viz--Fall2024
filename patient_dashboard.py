@@ -7,7 +7,7 @@ def patient_dashboard():
     #st.set_option('deprecation.showPyplotGlobalUse', False)
     st.title("Patient Dashboard")
     data = pd.read_csv('healthcare_dataset 2.csv')
-    st.write("Kindly any ID from the main dashboard page.")
+    st.write("Kindly enter any ID from the main dashboard page.")
 
     # Add a text input box for ID
     patient_id = st.text_input("Enter Patient ID:")
